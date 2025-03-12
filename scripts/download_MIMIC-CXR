@@ -114,7 +114,7 @@ def main():
         pn_cookies = {'sessionid': '53moqg0un3pjfkilop0100x2xamn25jr'}  # <--- Example
         base_url = "https://physionet.org/files/mimic-cxr-jpg/2.1.0/files/"
         save_dir = "./Dataset"
-        max_images = 1000
+        max_images = 10000
 
     # Create session and add cookies
     session = requests.Session()
